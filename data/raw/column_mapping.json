@@ -1,0 +1,13 @@
+{
+  "کارکرد": "mileage",
+  "مدل (سال تولید)": "year_raw",
+  "رنگ": "color",
+  "برند و مدل": "brand_model",
+  "مهلت بیمهٔ شخص ثالث": "third_party_insurance",
+  "نوع سوخت": "fuel_type",
+  "قیمت پایه": "asking_price_raw",
+  "موتور": "engine_condition",
+  "وضعیت شاسیها": "chassis_condition",
+  "بدنه": "body_condition",
+  "نوع وسیلهٔ نقلیه": "vehicle_type"
+}

@@ -1,0 +1,88 @@
+# Reference list of car brand names as they appear in Divar listing text.
+
+brands:
+  - ام وی ام
+  - ام جی
+  - بی ام و
+  - بی وای دی
+  - بی ای سی
+  - کی ام سی
+  - دانگ فنگ
+  - ایکس پنگ
+  - مرسدس بنز
+  - مکث موتور
+  - پژو
+  - پراید
+  - سمند
+  - کوییک
+  - دنا
+  - رنو
+  - هیوندای
+  - تویوتا
+  - فونیکس
+  - تارا
+  - شاهین
+  - پیکان
+  - جک
+  - ساینا
+  - زامیاد
+  - تیبا
+  - سایپا
+  - نیسان
+  - کیا
+  - هایما
+  - چری
+  - رانا
+  - برلیانس
+  - فیدلیتی
+  - بنز
+  - لیفان
+  - چانگان
+  - جیلی
+  - سیتروئن
+  - دیگنیتی
+  - مزدا
+  - لوکانو
+  - تیسان
+  - فولکس
+  - بسترن
+  - ریسپکت
+  - سوزوکی
+  - آریو
+  - پورشه
+  - دوو
+  - هاوال
+  - اکستریم
+  - پروتون
+  - شوال
+  - سانگ یانگ
+  - سانگ
+  - لاماری
+  - هوندا
+  - فوتون
+  - بایک
+  - میتسوبیشی
+  - کاپرا
+  - ایران خودرو
+  - آئودی
+  - دایون
+  - جیگوار
+  - جگوار
+  - اینرودز
+  - ایرس
+  - تیگارد
+  - بستیون
+  - لکسوس
+  - شورولت
+  - هونگچی
+
+# brand text -> The canonical brand into which it is to be merged
+# (different spellings/aliases for the same manufacturer)
+aliases:
+  مرسدس بنز: بنز
+  مکث موتور: مکث
+
+# NOT a brand -- a body-style prefix ("pickup"). Stripped before brand
+# matching; see is_pickup handling in normalize.py.
+body_style_prefixes:
+  - وانت

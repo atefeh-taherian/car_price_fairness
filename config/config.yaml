@@ -1,0 +1,11 @@
+paths:
+  raw: data/raw/divar_cars_expanded.csv
+  clean: data/processed/divar_cars_clean.csv
+  quarantine: data/processed/quarantined_placeholder_prices.csv
+  normalized: data/processed/divar_cars_normalized.csv
+
+cleaning:
+  placeholder_price_threshold_toman: 100000000
+  extreme_high_price_threshold_toman: 100000000000
+  mileage_high_threshold_km: 700000
+
